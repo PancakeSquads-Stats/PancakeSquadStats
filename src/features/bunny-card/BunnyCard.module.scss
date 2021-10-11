@@ -1,0 +1,18 @@
+img{
+  height: 50px;
+  width: 50px;
+}
+
+.Container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container:hover {
+  cursor: grab;
+  height: 500px;
+}
