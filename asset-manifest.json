@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PancakeSquadStats/static/css/main.1b215bd0.chunk.css",
+    "main.js": "/PancakeSquadStats/static/js/main.d2bb3881.chunk.js",
+    "main.js.map": "/PancakeSquadStats/static/js/main.d2bb3881.chunk.js.map",
+    "runtime-main.js": "/PancakeSquadStats/static/js/runtime-main.c4dd6303.js",
+    "runtime-main.js.map": "/PancakeSquadStats/static/js/runtime-main.c4dd6303.js.map",
+    "static/js/2.abec6ca5.chunk.js": "/PancakeSquadStats/static/js/2.abec6ca5.chunk.js",
+    "static/js/2.abec6ca5.chunk.js.map": "/PancakeSquadStats/static/js/2.abec6ca5.chunk.js.map",
+    "index.html": "/PancakeSquadStats/index.html",
+    "static/css/main.1b215bd0.chunk.css.map": "/PancakeSquadStats/static/css/main.1b215bd0.chunk.css.map",
+    "static/js/2.abec6ca5.chunk.js.LICENSE.txt": "/PancakeSquadStats/static/js/2.abec6ca5.chunk.js.LICENSE.txt",
+    "static/media/logo.b2e5a01e.svg": "/PancakeSquadStats/static/media/logo.b2e5a01e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4dd6303.js",
+    "static/js/2.abec6ca5.chunk.js",
+    "static/css/main.1b215bd0.chunk.css",
+    "static/js/main.d2bb3881.chunk.js"
+  ]
+}
