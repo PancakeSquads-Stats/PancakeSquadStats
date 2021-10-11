@@ -1,0 +1,46 @@
+{
+  "name": "pancakesquad-stats",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://pancakesquads-stats.github.io/PancakeSquadStats",
+  "repository": {
+    "type": "git",
+    "url": "https://pancakesquads-stats.github.io/PancakeSquadStats"
+  },
+  "scripts": {
+    "build": "rm -rf ./build && react-scripts build",
+    "predeploy": "yarn build && react-snap",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "lint": "eslint src",
+    "test": "react-scripts test --watchAll=false",
+    "analyze": "yarn build && source-map-explorer build/static/js/*.chunk.js"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "react-scripts": "4.0.3",
+    "react-snap": "^1.23.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
